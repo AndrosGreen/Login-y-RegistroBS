@@ -23,9 +23,11 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="formulario col-lg">
-                    <div class="bg-dark text-center py-1">
-                        <h3 class="text-success">Sign in to NorthWind</h3>
+                <div class="formulario col-lg col-md">
+                    <div class="bg-dark text-center">
+                        <h3 class="text-success mb-0 py-2">
+                            Sign in to NorthWind
+                        </h3>
                     </div>
                     <div class="p-3 border">
                         <form class="row g3">
@@ -64,12 +66,27 @@
                     </div>
                 </div>
 
-                <div class="formulario col-lg">
-                    <div class="bg-dark text-center py-1">
-                        <h3 class="text-success">Sign in to NorthWind</h3>
+                <div class="formulario col-lg col-md">
+                    <div class="bg-dark text-center">
+                        <h3 class="text-success mb-0 py-2">
+                            Create an account
+                        </h3>
                     </div>
                     <div class="p-3 border">
                         <form class="row g3">
+                            <div class="mb-3">
+                                <label
+                                    for="exampleFormControlInput1"
+                                    class="form-label"
+                                    >Name</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="exampleFormControlInput1"
+                                    placeholder="First name and last name"
+                                />
+                            </div>
                             <div class="mb-3">
                                 <label
                                     for="exampleFormControlInput1"
@@ -83,18 +100,33 @@
                                     placeholder="name@example.com"
                                 />
                             </div>
-                            <div class="mb-3">
-                                <label
-                                    for="exampleFormControlInput1"
-                                    class="form-label"
-                                    >Password</label
-                                >
-                                <input
-                                    type="password"
-                                    class="form-control"
-                                    id="exampleFormControlInput1"
-                                    placeholder="name@example.com"
-                                />
+                            <div class="row">
+                                <div class="mb-4 col-lg">
+                                    <label
+                                        for="exampleFormControlInput1"
+                                        class="form-label"
+                                        >Password</label
+                                    >
+                                    <input
+                                        type="password"
+                                        class="form-control"
+                                        id="exampleFormControlInput1"
+                                        placeholder="Sample password"
+                                    />
+                                </div>
+                                <div class="mb-4 col-lg">
+                                    <label
+                                        for="exampleFormControlInput1"
+                                        class="form-label"
+                                        >Confirm Password</label
+                                    >
+                                    <input
+                                        type="password"
+                                        class="form-control"
+                                        id="exampleFormControlInput1"
+                                        placeholder="Sample password"
+                                    />
+                                </div>
                             </div>
                         </form>
                     </div>
