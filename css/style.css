@@ -7,3 +7,11 @@
 .formulario {
     margin-top: 1rem;
 }
+
+.texto-cyan {
+    color: rgb(111, 219, 156) !important;
+}
+
+.bg-cyan {
+    background-color: rgb(111, 219, 156) !important;
+}
